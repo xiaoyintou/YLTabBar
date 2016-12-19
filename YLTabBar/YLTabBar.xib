@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="YLTabBar">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ROb-tz-r5V">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                    <subviews>
+                        <button opaque="NO" tag="1" contentMode="scaleToFill" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z0c-ht-rs9">
+                            <rect key="frame" x="0.0" y="0.0" width="94" height="49"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <inset key="titleEdgeInsets" minX="5" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            <state key="normal" title="首页" image="首页.png">
+                                <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                            <state key="selected" image="首页2.png">
+                                <color key="titleColor" red="1" green="0.15226272330000001" blue="0.18860546489999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="clickAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="n6Y-tJ-dfh"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HSb-ql-5KP">
+                            <rect key="frame" x="94" y="0.0" width="93.5" height="49"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <inset key="titleEdgeInsets" minX="5" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            <state key="normal" title="钻石" image="钻石.png">
+                                <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                            <state key="selected" image="钻石2.png">
+                                <color key="titleColor" red="1" green="0.15226272330000001" blue="0.18860546489999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="clickAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="tNG-VO-XCt"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p1q-Xu-Dup">
+                            <rect key="frame" x="187.5" y="0.0" width="94" height="49"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <inset key="titleEdgeInsets" minX="5" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            <state key="normal" title="保障" image="保障.png">
+                                <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                            <state key="selected" image="保障2.png">
+                                <color key="titleColor" red="1" green="0.15226272330000001" blue="0.18860546489999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="clickAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="7Vg-Fu-myR"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q73-HL-MCl">
+                            <rect key="frame" x="281.5" y="0.0" width="93.5" height="49"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <inset key="titleEdgeInsets" minX="5" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            <state key="normal" title="我的" image="我的.png">
+                                <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                            <state key="selected" image="我的2.png">
+                                <color key="titleColor" red="1" green="0.15226272330000001" blue="0.18860546489999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="clickAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="FTc-Q5-gUa"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JiF-DX-lce">
+                            <rect key="frame" x="167" y="-10" width="40" height="38"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="38.299999999999997" id="1uc-Ms-dog"/>
+                                <constraint firstAttribute="width" constant="40" id="auh-vU-mrV"/>
+                            </constraints>
+                            <state key="normal" image="宝贝.png"/>
+                            <connections>
+                                <action selector="midClickAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="CWo-IR-otp"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="p1q-Xu-Dup" firstAttribute="width" secondItem="z0c-ht-rs9" secondAttribute="width" id="1PN-s3-dgq"/>
+                        <constraint firstItem="JiF-DX-lce" firstAttribute="centerX" secondItem="ROb-tz-r5V" secondAttribute="centerX" id="1dm-Ol-Bhf"/>
+                        <constraint firstAttribute="bottom" secondItem="z0c-ht-rs9" secondAttribute="bottom" id="8Gw-jX-GTW"/>
+                        <constraint firstItem="p1q-Xu-Dup" firstAttribute="leading" secondItem="HSb-ql-5KP" secondAttribute="trailing" id="CgS-2O-kdP"/>
+                        <constraint firstAttribute="height" constant="49" id="DUN-7w-1tL"/>
+                        <constraint firstItem="z0c-ht-rs9" firstAttribute="leading" secondItem="ROb-tz-r5V" secondAttribute="leading" id="M2N-oo-KbY"/>
+                        <constraint firstItem="HSb-ql-5KP" firstAttribute="top" secondItem="ROb-tz-r5V" secondAttribute="top" id="Mwd-zA-8AD"/>
+                        <constraint firstAttribute="bottom" secondItem="HSb-ql-5KP" secondAttribute="bottom" id="N0F-AR-jwl"/>
+                        <constraint firstItem="z0c-ht-rs9" firstAttribute="top" secondItem="ROb-tz-r5V" secondAttribute="top" id="NRT-yA-goy"/>
+                        <constraint firstItem="HSb-ql-5KP" firstAttribute="leading" secondItem="z0c-ht-rs9" secondAttribute="trailing" id="QXl-T3-ILA"/>
+                        <constraint firstAttribute="trailing" secondItem="q73-HL-MCl" secondAttribute="trailing" id="QfB-Nk-ouu"/>
+                        <constraint firstItem="JiF-DX-lce" firstAttribute="top" secondItem="ROb-tz-r5V" secondAttribute="top" constant="-10" id="VS9-7P-uue"/>
+                        <constraint firstItem="q73-HL-MCl" firstAttribute="width" secondItem="z0c-ht-rs9" secondAttribute="width" id="XgI-uy-pzC"/>
+                        <constraint firstItem="q73-HL-MCl" firstAttribute="leading" secondItem="p1q-Xu-Dup" secondAttribute="trailing" id="be8-Cf-DaU"/>
+                        <constraint firstItem="p1q-Xu-Dup" firstAttribute="top" secondItem="ROb-tz-r5V" secondAttribute="top" id="eq4-ty-tnf"/>
+                        <constraint firstItem="q73-HL-MCl" firstAttribute="top" secondItem="ROb-tz-r5V" secondAttribute="top" id="m0N-2T-XwF"/>
+                        <constraint firstAttribute="bottom" secondItem="p1q-Xu-Dup" secondAttribute="bottom" id="tQz-G8-Pj5"/>
+                        <constraint firstAttribute="bottom" secondItem="q73-HL-MCl" secondAttribute="bottom" id="vL3-Dk-m0d"/>
+                        <constraint firstItem="HSb-ql-5KP" firstAttribute="width" secondItem="z0c-ht-rs9" secondAttribute="width" id="wp6-w7-es5"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="ROb-tz-r5V" secondAttribute="trailing" id="2j0-BY-AJE"/>
+                <constraint firstItem="ROb-tz-r5V" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="McH-mP-j4V"/>
+                <constraint firstItem="ROb-tz-r5V" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="TWi-q2-Gk5"/>
+                <constraint firstAttribute="bottom" secondItem="ROb-tz-r5V" secondAttribute="bottom" id="kru-8n-Kcx"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="21" y="-93"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="保障.png" width="23" height="23"/>
+        <image name="保障2.png" width="23" height="23"/>
+        <image name="宝贝.png" width="40" height="38"/>
+        <image name="我的.png" width="23" height="23"/>
+        <image name="我的2.png" width="23" height="23"/>
+        <image name="钻石.png" width="23" height="23"/>
+        <image name="钻石2.png" width="23" height="23"/>
+        <image name="首页.png" width="23" height="23"/>
+        <image name="首页2.png" width="23" height="23"/>
+    </resources>
+</document>

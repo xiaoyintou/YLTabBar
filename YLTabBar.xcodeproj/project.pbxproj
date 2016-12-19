@@ -1,0 +1,567 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7111F09EF041ACE81E234AD9 /* libPods-YLTabBar.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 92277F7C67A67E5C15938716 /* libPods-YLTabBar.a */; };
+		CC30E7211DFFAF5300675978 /* ZsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC30E71F1DFFAF5300675978 /* ZsViewController.m */; };
+		CC30E7221DFFAF5300675978 /* ZsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC30E7201DFFAF5300675978 /* ZsViewController.xib */; };
+		CC30E7261DFFC5B400675978 /* BzViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC30E7241DFFC5B400675978 /* BzViewController.m */; };
+		CC30E7271DFFC5B400675978 /* BzViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC30E7251DFFC5B400675978 /* BzViewController.xib */; };
+		CC30E72B1DFFC70200675978 /* MeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC30E7291DFFC70200675978 /* MeViewController.m */; };
+		CC30E72C1DFFC70200675978 /* MeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC30E72A1DFFC70200675978 /* MeViewController.xib */; };
+		CC30E7301DFFC7B300675978 /* CarouselView.m in Sources */ = {isa = PBXBuildFile; fileRef = CC30E72F1DFFC7B300675978 /* CarouselView.m */; };
+		CC343A8F1E043D550008D673 /* HomeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC343A8E1E043D550008D673 /* HomeKit.framework */; };
+		CC5006A31DF93B840007F07A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CC5006A21DF93B840007F07A /* main.m */; };
+		CC5006A61DF93B840007F07A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CC5006A51DF93B840007F07A /* AppDelegate.m */; };
+		CC5006AE1DF93B840007F07A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC5006AD1DF93B840007F07A /* Assets.xcassets */; };
+		CC5006BA1DF93BBF0007F07A /* YLTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC5006B91DF93BBF0007F07A /* YLTabBarController.m */; };
+		CC5006BD1DF93D1D0007F07A /* YLTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = CC5006BC1DF93D1D0007F07A /* YLTabBar.m */; };
+		CC5006D91DF947D70007F07A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC5006D71DF947D70007F07A /* LaunchScreen.storyboard */; };
+		CC5006E21DF9488E0007F07A /* 保障@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC5006DA1DF9488E0007F07A /* 保障@2x.png */; };
+		CC5006E31DF9488E0007F07A /* 保障2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC5006DB1DF9488E0007F07A /* 保障2@2x.png */; };
+		CC5006E41DF9488E0007F07A /* 首页@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC5006DC1DF9488E0007F07A /* 首页@2x.png */; };
+		CC5006E51DF9488E0007F07A /* 首页2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC5006DD1DF9488E0007F07A /* 首页2@2x.png */; };
+		CC5006E61DF9488E0007F07A /* 我的@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC5006DE1DF9488E0007F07A /* 我的@2x.png */; };
+		CC5006E71DF9488E0007F07A /* 我的2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC5006DF1DF9488E0007F07A /* 我的2@2x.png */; };
+		CC5006E81DF9488E0007F07A /* 钻石@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC5006E01DF9488E0007F07A /* 钻石@2x.png */; };
+		CC5006E91DF9488E0007F07A /* 钻石2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC5006E11DF9488E0007F07A /* 钻石2@2x.png */; };
+		CC50BEB71E057A6E00CCA6DD /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CC50BEB61E057A6E00CCA6DD /* BaseModel.m */; };
+		CC50BEBA1E057EA500CCA6DD /* HomeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CC50BEB91E057EA500CCA6DD /* HomeModel.m */; };
+		CC50BEBD1E0587B300CCA6DD /* ZsData.m in Sources */ = {isa = PBXBuildFile; fileRef = CC50BEBC1E0587B300CCA6DD /* ZsData.m */; };
+		CC7041081DFA8D49003F5317 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = CC7041071DFA8D49003F5317 /* JSONKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CC70410A1DFA9F19003F5317 /* YLTabBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC7041091DFA9F19003F5317 /* YLTabBar.xib */; };
+		CCA024331DFA59A30048DE52 /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCA024311DFA59A30048DE52 /* FirstViewController.xib */; };
+		CCA024371DFA61BD0048DE52 /* HomeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA024351DFA61BD0048DE52 /* HomeCell.m */; };
+		CCA024381DFA61BD0048DE52 /* HomeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCA024361DFA61BD0048DE52 /* HomeCell.xib */; };
+		CCA105CB1E03C04E008310B7 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA105CA1E03C04E008310B7 /* FirstViewController.m */; };
+		CCCA5DB61DFD2F0F0010CAB9 /* zhanwei@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CCCA5DB51DFD2F0F0010CAB9 /* zhanwei@2x.png */; };
+		CCE7DE291E052AB9000F1A82 /* ZsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CCE7DE281E052AB9000F1A82 /* ZsModel.m */; };
+		CCFF0E761DF94D6D006C2BAF /* 宝贝@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CCFF0E751DF94D6D006C2BAF /* 宝贝@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		186911F1F2E468FF301C57E1 /* Pods-YLTabBar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YLTabBar.release.xcconfig"; path = "Pods/Target Support Files/Pods-YLTabBar/Pods-YLTabBar.release.xcconfig"; sourceTree = "<group>"; };
+		92277F7C67A67E5C15938716 /* libPods-YLTabBar.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YLTabBar.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAE8B972924BCDEB14494A4D /* Pods-YLTabBar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YLTabBar.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YLTabBar/Pods-YLTabBar.debug.xcconfig"; sourceTree = "<group>"; };
+		CC30E71D1DFFADE400675978 /* Config.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Config.pch; sourceTree = "<group>"; };
+		CC30E71E1DFFAF5300675978 /* ZsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZsViewController.h; sourceTree = "<group>"; };
+		CC30E71F1DFFAF5300675978 /* ZsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZsViewController.m; sourceTree = "<group>"; };
+		CC30E7201DFFAF5300675978 /* ZsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZsViewController.xib; sourceTree = "<group>"; };
+		CC30E7231DFFC5B400675978 /* BzViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BzViewController.h; sourceTree = "<group>"; };
+		CC30E7241DFFC5B400675978 /* BzViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BzViewController.m; sourceTree = "<group>"; };
+		CC30E7251DFFC5B400675978 /* BzViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BzViewController.xib; sourceTree = "<group>"; };
+		CC30E7281DFFC70200675978 /* MeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeViewController.h; sourceTree = "<group>"; };
+		CC30E7291DFFC70200675978 /* MeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeViewController.m; sourceTree = "<group>"; };
+		CC30E72A1DFFC70200675978 /* MeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MeViewController.xib; sourceTree = "<group>"; };
+		CC30E72E1DFFC7B300675978 /* CarouselView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarouselView.h; sourceTree = "<group>"; };
+		CC30E72F1DFFC7B300675978 /* CarouselView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarouselView.m; sourceTree = "<group>"; };
+		CC343A8E1E043D550008D673 /* HomeKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HomeKit.framework; path = System/Library/Frameworks/HomeKit.framework; sourceTree = SDKROOT; };
+		CC50069E1DF93B840007F07A /* YLTabBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YLTabBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC5006A21DF93B840007F07A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CC5006A41DF93B840007F07A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CC5006A51DF93B840007F07A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CC5006AD1DF93B840007F07A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC5006B21DF93B840007F07A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC5006B81DF93BBF0007F07A /* YLTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLTabBarController.h; sourceTree = "<group>"; };
+		CC5006B91DF93BBF0007F07A /* YLTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLTabBarController.m; sourceTree = "<group>"; };
+		CC5006BB1DF93D1D0007F07A /* YLTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLTabBar.h; sourceTree = "<group>"; };
+		CC5006BC1DF93D1D0007F07A /* YLTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLTabBar.m; sourceTree = "<group>"; };
+		CC5006D81DF947D70007F07A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CC5006DA1DF9488E0007F07A /* 保障@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "保障@2x.png"; sourceTree = "<group>"; };
+		CC5006DB1DF9488E0007F07A /* 保障2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "保障2@2x.png"; sourceTree = "<group>"; };
+		CC5006DC1DF9488E0007F07A /* 首页@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页@2x.png"; sourceTree = "<group>"; };
+		CC5006DD1DF9488E0007F07A /* 首页2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页2@2x.png"; sourceTree = "<group>"; };
+		CC5006DE1DF9488E0007F07A /* 我的@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "我的@2x.png"; sourceTree = "<group>"; };
+		CC5006DF1DF9488E0007F07A /* 我的2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "我的2@2x.png"; sourceTree = "<group>"; };
+		CC5006E01DF9488E0007F07A /* 钻石@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "钻石@2x.png"; sourceTree = "<group>"; };
+		CC5006E11DF9488E0007F07A /* 钻石2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "钻石2@2x.png"; sourceTree = "<group>"; };
+		CC50BEB51E057A6E00CCA6DD /* BaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseModel.h; sourceTree = "<group>"; };
+		CC50BEB61E057A6E00CCA6DD /* BaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
+		CC50BEB81E057EA500CCA6DD /* HomeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeModel.h; sourceTree = "<group>"; };
+		CC50BEB91E057EA500CCA6DD /* HomeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeModel.m; sourceTree = "<group>"; };
+		CC50BEBB1E0587B300CCA6DD /* ZsData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZsData.h; sourceTree = "<group>"; };
+		CC50BEBC1E0587B300CCA6DD /* ZsData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZsData.m; sourceTree = "<group>"; };
+		CC7041061DFA8D49003F5317 /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
+		CC7041071DFA8D49003F5317 /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
+		CC7041091DFA9F19003F5317 /* YLTabBar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YLTabBar.xib; sourceTree = "<group>"; };
+		CCA0242F1DFA59A30048DE52 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		CCA024311DFA59A30048DE52 /* FirstViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
+		CCA024341DFA61BD0048DE52 /* HomeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeCell.h; sourceTree = "<group>"; };
+		CCA024351DFA61BD0048DE52 /* HomeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeCell.m; sourceTree = "<group>"; };
+		CCA024361DFA61BD0048DE52 /* HomeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeCell.xib; sourceTree = "<group>"; };
+		CCA105CA1E03C04E008310B7 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		CCCA5DB51DFD2F0F0010CAB9 /* zhanwei@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zhanwei@2x.png"; sourceTree = "<group>"; };
+		CCE7DE271E052AB9000F1A82 /* ZsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZsModel.h; sourceTree = "<group>"; };
+		CCE7DE281E052AB9000F1A82 /* ZsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZsModel.m; sourceTree = "<group>"; };
+		CCFF0E751DF94D6D006C2BAF /* 宝贝@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "宝贝@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC50069B1DF93B830007F07A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC343A8F1E043D550008D673 /* HomeKit.framework in Frameworks */,
+				7111F09EF041ACE81E234AD9 /* libPods-YLTabBar.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		24742C3D105A9F092824708A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CAE8B972924BCDEB14494A4D /* Pods-YLTabBar.debug.xcconfig */,
+				186911F1F2E468FF301C57E1 /* Pods-YLTabBar.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9EF357B3F89A61007034E024 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CC343A8E1E043D550008D673 /* HomeKit.framework */,
+				92277F7C67A67E5C15938716 /* libPods-YLTabBar.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CC30E72D1DFFC77400675978 /* 轮播图 */ = {
+			isa = PBXGroup;
+			children = (
+				CC30E72E1DFFC7B300675978 /* CarouselView.h */,
+				CC30E72F1DFFC7B300675978 /* CarouselView.m */,
+			);
+			path = "轮播图";
+			sourceTree = "<group>";
+		};
+		CC5006951DF93B830007F07A = {
+			isa = PBXGroup;
+			children = (
+				CC5006A01DF93B840007F07A /* YLTabBar */,
+				CC50069F1DF93B840007F07A /* Products */,
+				24742C3D105A9F092824708A /* Pods */,
+				9EF357B3F89A61007034E024 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CC50069F1DF93B840007F07A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC50069E1DF93B840007F07A /* YLTabBar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC5006A01DF93B840007F07A /* YLTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				CCA105B11E03ADB1008310B7 /* HomeModel */,
+				CC30E72D1DFFC77400675978 /* 轮播图 */,
+				CC7041061DFA8D49003F5317 /* JSONKit.h */,
+				CC7041071DFA8D49003F5317 /* JSONKit.m */,
+				CC5006A41DF93B840007F07A /* AppDelegate.h */,
+				CC5006A51DF93B840007F07A /* AppDelegate.m */,
+				CC5006B81DF93BBF0007F07A /* YLTabBarController.h */,
+				CC5006B91DF93BBF0007F07A /* YLTabBarController.m */,
+				CC5006BB1DF93D1D0007F07A /* YLTabBar.h */,
+				CC5006BC1DF93D1D0007F07A /* YLTabBar.m */,
+				CC7041091DFA9F19003F5317 /* YLTabBar.xib */,
+				CCA0242F1DFA59A30048DE52 /* FirstViewController.h */,
+				CCA105CA1E03C04E008310B7 /* FirstViewController.m */,
+				CCA024311DFA59A30048DE52 /* FirstViewController.xib */,
+				CC30E71E1DFFAF5300675978 /* ZsViewController.h */,
+				CC30E71F1DFFAF5300675978 /* ZsViewController.m */,
+				CC30E7201DFFAF5300675978 /* ZsViewController.xib */,
+				CC30E7231DFFC5B400675978 /* BzViewController.h */,
+				CC30E7241DFFC5B400675978 /* BzViewController.m */,
+				CC30E7251DFFC5B400675978 /* BzViewController.xib */,
+				CCA024341DFA61BD0048DE52 /* HomeCell.h */,
+				CCA024351DFA61BD0048DE52 /* HomeCell.m */,
+				CCA024361DFA61BD0048DE52 /* HomeCell.xib */,
+				CC5006D71DF947D70007F07A /* LaunchScreen.storyboard */,
+				CC5006BE1DF945C50007F07A /* 图标 */,
+				CC5006AD1DF93B840007F07A /* Assets.xcassets */,
+				CC5006B21DF93B840007F07A /* Info.plist */,
+				CC5006A11DF93B840007F07A /* Supporting Files */,
+				CC30E7281DFFC70200675978 /* MeViewController.h */,
+				CC30E7291DFFC70200675978 /* MeViewController.m */,
+				CC30E72A1DFFC70200675978 /* MeViewController.xib */,
+			);
+			path = YLTabBar;
+			sourceTree = "<group>";
+		};
+		CC5006A11DF93B840007F07A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC5006A21DF93B840007F07A /* main.m */,
+				CC30E71D1DFFADE400675978 /* Config.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CC5006BE1DF945C50007F07A /* 图标 */ = {
+			isa = PBXGroup;
+			children = (
+				CCCA5DB51DFD2F0F0010CAB9 /* zhanwei@2x.png */,
+				CCFF0E751DF94D6D006C2BAF /* 宝贝@2x.png */,
+				CC5006DA1DF9488E0007F07A /* 保障@2x.png */,
+				CC5006DB1DF9488E0007F07A /* 保障2@2x.png */,
+				CC5006DC1DF9488E0007F07A /* 首页@2x.png */,
+				CC5006DD1DF9488E0007F07A /* 首页2@2x.png */,
+				CC5006DE1DF9488E0007F07A /* 我的@2x.png */,
+				CC5006DF1DF9488E0007F07A /* 我的2@2x.png */,
+				CC5006E01DF9488E0007F07A /* 钻石@2x.png */,
+				CC5006E11DF9488E0007F07A /* 钻石2@2x.png */,
+			);
+			path = "图标";
+			sourceTree = "<group>";
+		};
+		CCA105B11E03ADB1008310B7 /* HomeModel */ = {
+			isa = PBXGroup;
+			children = (
+				CCE7DE271E052AB9000F1A82 /* ZsModel.h */,
+				CCE7DE281E052AB9000F1A82 /* ZsModel.m */,
+				CC50BEB51E057A6E00CCA6DD /* BaseModel.h */,
+				CC50BEB61E057A6E00CCA6DD /* BaseModel.m */,
+				CC50BEB81E057EA500CCA6DD /* HomeModel.h */,
+				CC50BEB91E057EA500CCA6DD /* HomeModel.m */,
+				CC50BEBB1E0587B300CCA6DD /* ZsData.h */,
+				CC50BEBC1E0587B300CCA6DD /* ZsData.m */,
+			);
+			path = HomeModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC50069D1DF93B830007F07A /* YLTabBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC5006B51DF93B840007F07A /* Build configuration list for PBXNativeTarget "YLTabBar" */;
+			buildPhases = (
+				2290979BE4FE07D359C1F14B /* [CP] Check Pods Manifest.lock */,
+				CC50069A1DF93B830007F07A /* Sources */,
+				CC50069B1DF93B830007F07A /* Frameworks */,
+				CC50069C1DF93B830007F07A /* Resources */,
+				A4A9C5B6DC2D6F2411B0F8F2 /* [CP] Embed Pods Frameworks */,
+				D90595375D21F8E877D10965 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YLTabBar;
+			productName = YLTabBar;
+			productReference = CC50069E1DF93B840007F07A /* YLTabBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC5006961DF93B830007F07A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = dml;
+				TargetAttributes = {
+					CC50069D1DF93B830007F07A = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 2KAA2YH424;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CC5006991DF93B830007F07A /* Build configuration list for PBXProject "YLTabBar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC5006951DF93B830007F07A;
+			productRefGroup = CC50069F1DF93B840007F07A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC50069D1DF93B830007F07A /* YLTabBar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC50069C1DF93B830007F07A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC30E72C1DFFC70200675978 /* MeViewController.xib in Resources */,
+				CCCA5DB61DFD2F0F0010CAB9 /* zhanwei@2x.png in Resources */,
+				CC5006E51DF9488E0007F07A /* 首页2@2x.png in Resources */,
+				CC5006E61DF9488E0007F07A /* 我的@2x.png in Resources */,
+				CC30E7271DFFC5B400675978 /* BzViewController.xib in Resources */,
+				CC5006D91DF947D70007F07A /* LaunchScreen.storyboard in Resources */,
+				CCFF0E761DF94D6D006C2BAF /* 宝贝@2x.png in Resources */,
+				CC30E7221DFFAF5300675978 /* ZsViewController.xib in Resources */,
+				CC5006E21DF9488E0007F07A /* 保障@2x.png in Resources */,
+				CC5006E41DF9488E0007F07A /* 首页@2x.png in Resources */,
+				CC70410A1DFA9F19003F5317 /* YLTabBar.xib in Resources */,
+				CCA024381DFA61BD0048DE52 /* HomeCell.xib in Resources */,
+				CC5006E91DF9488E0007F07A /* 钻石2@2x.png in Resources */,
+				CCA024331DFA59A30048DE52 /* FirstViewController.xib in Resources */,
+				CC5006E81DF9488E0007F07A /* 钻石@2x.png in Resources */,
+				CC5006E31DF9488E0007F07A /* 保障2@2x.png in Resources */,
+				CC5006E71DF9488E0007F07A /* 我的2@2x.png in Resources */,
+				CC5006AE1DF93B840007F07A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2290979BE4FE07D359C1F14B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A4A9C5B6DC2D6F2411B0F8F2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YLTabBar/Pods-YLTabBar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D90595375D21F8E877D10965 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YLTabBar/Pods-YLTabBar-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC50069A1DF93B830007F07A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCA105CB1E03C04E008310B7 /* FirstViewController.m in Sources */,
+				CCA024371DFA61BD0048DE52 /* HomeCell.m in Sources */,
+				CC30E7211DFFAF5300675978 /* ZsViewController.m in Sources */,
+				CC50BEBD1E0587B300CCA6DD /* ZsData.m in Sources */,
+				CC30E7261DFFC5B400675978 /* BzViewController.m in Sources */,
+				CC50BEBA1E057EA500CCA6DD /* HomeModel.m in Sources */,
+				CC5006A61DF93B840007F07A /* AppDelegate.m in Sources */,
+				CC30E72B1DFFC70200675978 /* MeViewController.m in Sources */,
+				CC5006BA1DF93BBF0007F07A /* YLTabBarController.m in Sources */,
+				CCE7DE291E052AB9000F1A82 /* ZsModel.m in Sources */,
+				CC5006BD1DF93D1D0007F07A /* YLTabBar.m in Sources */,
+				CC50BEB71E057A6E00CCA6DD /* BaseModel.m in Sources */,
+				CC7041081DFA8D49003F5317 /* JSONKit.m in Sources */,
+				CC5006A31DF93B840007F07A /* main.m in Sources */,
+				CC30E7301DFFC7B300675978 /* CarouselView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CC5006D71DF947D70007F07A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC5006D81DF947D70007F07A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC5006B31DF93B840007F07A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CC5006B41DF93B840007F07A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC5006B61DF93B840007F07A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAE8B972924BCDEB14494A4D /* Pods-YLTabBar.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 2KAA2YH424;
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = "$(SRCROOT)//YLTabBar/Config.pch";
+				INFOPLIST_FILE = YLTabBar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.YLTabBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				VALID_ARCHS = "arm64 armv7 armv7s";
+			};
+			name = Debug;
+		};
+		CC5006B71DF93B840007F07A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 186911F1F2E468FF301C57E1 /* Pods-YLTabBar.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 2KAA2YH424;
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = "$(SRCROOT)//YLTabBar/Config.pch";
+				INFOPLIST_FILE = YLTabBar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.YLTabBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				VALID_ARCHS = "arm64 armv7 armv7s";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC5006991DF93B830007F07A /* Build configuration list for PBXProject "YLTabBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC5006B31DF93B840007F07A /* Debug */,
+				CC5006B41DF93B840007F07A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC5006B51DF93B840007F07A /* Build configuration list for PBXNativeTarget "YLTabBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC5006B61DF93B840007F07A /* Debug */,
+				CC5006B71DF93B840007F07A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC5006961DF93B830007F07A /* Project object */;
+}
