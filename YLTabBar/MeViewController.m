@@ -19,7 +19,6 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
     self.navigationItem.title = @"扫一扫功能";
-    self.view.backgroundColor = [UIColor redColor];
 }
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
     //扫描框定义
