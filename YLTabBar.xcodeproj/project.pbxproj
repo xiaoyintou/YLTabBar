@@ -33,6 +33,7 @@
 		CC50BEB71E057A6E00CCA6DD /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CC50BEB61E057A6E00CCA6DD /* BaseModel.m */; };
 		CC50BEBA1E057EA500CCA6DD /* HomeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CC50BEB91E057EA500CCA6DD /* HomeModel.m */; };
 		CC50BEBD1E0587B300CCA6DD /* ZsData.m in Sources */ = {isa = PBXBuildFile; fileRef = CC50BEBC1E0587B300CCA6DD /* ZsData.m */; };
+		CC6BA5DF1E08FEEF00307F0A /* ScanHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = CC6BA5DE1E08FEEF00307F0A /* ScanHelper.m */; };
 		CC7041081DFA8D49003F5317 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = CC7041071DFA8D49003F5317 /* JSONKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		CC70410A1DFA9F19003F5317 /* YLTabBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC7041091DFA9F19003F5317 /* YLTabBar.xib */; };
 		CCA024331DFA59A30048DE52 /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCA024311DFA59A30048DE52 /* FirstViewController.xib */; };
@@ -86,6 +87,8 @@
 		CC50BEB91E057EA500CCA6DD /* HomeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeModel.m; sourceTree = "<group>"; };
 		CC50BEBB1E0587B300CCA6DD /* ZsData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZsData.h; sourceTree = "<group>"; };
 		CC50BEBC1E0587B300CCA6DD /* ZsData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZsData.m; sourceTree = "<group>"; };
+		CC6BA5DD1E08FEEF00307F0A /* ScanHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScanHelper.h; sourceTree = "<group>"; };
+		CC6BA5DE1E08FEEF00307F0A /* ScanHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScanHelper.m; sourceTree = "<group>"; };
 		CC7041061DFA8D49003F5317 /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
 		CC7041071DFA8D49003F5317 /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
 		CC7041091DFA9F19003F5317 /* YLTabBar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YLTabBar.xib; sourceTree = "<group>"; };
@@ -162,6 +165,7 @@
 		CC5006A01DF93B840007F07A /* YLTabBar */ = {
 			isa = PBXGroup;
 			children = (
+				CC6BA5DC1E08FE5500307F0A /* 二维码和条形码扫描 */,
 				CCA105B11E03ADB1008310B7 /* HomeModel */,
 				CC30E72D1DFFC77400675978 /* 轮播图 */,
 				CC7041061DFA8D49003F5317 /* JSONKit.h */,
@@ -221,6 +225,15 @@
 				CC5006E11DF9488E0007F07A /* 钻石2@2x.png */,
 			);
 			path = "图标";
+			sourceTree = "<group>";
+		};
+		CC6BA5DC1E08FE5500307F0A /* 二维码和条形码扫描 */ = {
+			isa = PBXGroup;
+			children = (
+				CC6BA5DD1E08FEEF00307F0A /* ScanHelper.h */,
+				CC6BA5DE1E08FEEF00307F0A /* ScanHelper.m */,
+			);
+			path = "二维码和条形码扫描";
 			sourceTree = "<group>";
 		};
 		CCA105B11E03ADB1008310B7 /* HomeModel */ = {
@@ -388,6 +401,7 @@
 				CCE7DE291E052AB9000F1A82 /* ZsModel.m in Sources */,
 				CC5006BD1DF93D1D0007F07A /* YLTabBar.m in Sources */,
 				CC50BEB71E057A6E00CCA6DD /* BaseModel.m in Sources */,
+				CC6BA5DF1E08FEEF00307F0A /* ScanHelper.m in Sources */,
 				CC7041081DFA8D49003F5317 /* JSONKit.m in Sources */,
 				CC5006A31DF93B840007F07A /* main.m in Sources */,
 				CC30E7301DFFC7B300675978 /* CarouselView.m in Sources */,
