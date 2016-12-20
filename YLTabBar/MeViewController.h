@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface MeViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UIView *framView;
 
 @end
